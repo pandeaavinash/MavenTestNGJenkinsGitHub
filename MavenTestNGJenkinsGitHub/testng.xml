@@ -3,8 +3,7 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="tests.RestAPITest"/>
-     <!--  <class name="tests.FirstTest"/> -->
+      <class name="tests.ExtentReport"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
