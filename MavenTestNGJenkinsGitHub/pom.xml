@@ -140,9 +140,9 @@
       
       
       <plugin>
- <groupId>org.jsonschema2pojo</groupId>
- <artifactId>jsonschema2pojo-maven-plugin</artifactId>
- <version>0.4.5</version>
+  <groupId>org.jsonschema2pojo</groupId>
+    <artifactId>jsonschema2pojo-maven-plugin</artifactId>
+    <version>0.5.1</version>
  <configuration>
  <annotationStyle>gson</annotationStyle>
  <sourceType>jsonschema</sourceType>
