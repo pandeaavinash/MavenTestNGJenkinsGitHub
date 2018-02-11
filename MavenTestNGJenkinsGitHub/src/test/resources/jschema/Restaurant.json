@@ -1,0 +1,278 @@
+{
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "properties": {
+    "code": {
+      "$id": "/properties/code",
+      "type": "string",
+      "title": "The Code Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "200"
+      ]
+    },
+    "status": {
+      "$id": "/properties/status",
+      "type": "string",
+      "title": "The Status Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "OK"
+      ]
+    },
+    "restaurant": {
+      "$id": "/properties/restaurant",
+      "type": "object",
+      "properties": {
+        "id": {
+          "$id": "/properties/restaurant/properties/id",
+          "type": "string",
+          "title": "The Id Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "1"
+          ]
+        },
+        "name": {
+          "$id": "/properties/restaurant/properties/name",
+          "type": "string",
+          "title": "The Name Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "Chaat Cafe PROD"
+          ]
+        },
+        "description": {
+          "$id": "/properties/restaurant/properties/description",
+          "type": "string",
+          "title": "The Description Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "Aromatic food from incredible India."
+          ]
+        },
+        "address": {
+          "$id": "/properties/restaurant/properties/address",
+          "type": "string",
+          "title": "The Address Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "705 S Gammon Rd, Madison, WI 53719"
+          ]
+        },
+        "address1": {
+          "$id": "/properties/restaurant/properties/address1",
+          "type": "string",
+          "title": "The Address1 Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "705 S Gammon Rd, Madison, WI 53719"
+          ]
+        },
+        "latitude": {
+          "$id": "/properties/restaurant/properties/latitude",
+          "type": "string",
+          "title": "The Latitude Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "43.049913"
+          ]
+        },
+        "longitude": {
+          "$id": "/properties/restaurant/properties/longitude",
+          "type": "string",
+          "title": "The Longitude Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "-89.502799"
+          ]
+        },
+        "logoUrl": {
+          "$id": "/properties/restaurant/properties/logoUrl",
+          "type": "string",
+          "title": "The Logourl Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "https://s3.amazonaws.com/fudu-public/images/restaurants/+chaat_cafe.png"
+          ]
+        },
+        "managerEmail": {
+          "$id": "/properties/restaurant/properties/managerEmail",
+          "type": "string",
+          "title": "The Manageremail Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "chaatcafe@yahoo.com"
+          ]
+        },
+        "restaurantPhone": {
+          "$id": "/properties/restaurant/properties/restaurantPhone",
+          "type": "string",
+          "title": "The Restaurantphone Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "16087095252"
+          ]
+        },
+        "isDeliveryAvailable": {
+          "$id": "/properties/restaurant/properties/isDeliveryAvailable",
+          "type": "string",
+          "title": "The Isdeliveryavailable Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "Y"
+          ]
+        },
+        "deliveryMinimum": {
+          "$id": "/properties/restaurant/properties/deliveryMinimum",
+          "type": "string",
+          "title": "The Deliveryminimum Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "1"
+          ]
+        },
+        "mealPreparationETA": {
+          "$id": "/properties/restaurant/properties/mealPreparationETA",
+          "type": "string",
+          "title": "The Mealpreparationeta Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "20"
+          ]
+        },
+        "mealPreparationETAUnitOfMeasure": {
+          "$id": "/properties/restaurant/properties/mealPreparationETAUnitOfMeasure",
+          "type": "string",
+          "title": "The Mealpreparationetaunitofmeasure Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "minutes"
+          ]
+        },
+        "isOpen": {
+          "$id": "/properties/restaurant/properties/isOpen",
+          "type": "string",
+          "title": "The Isopen Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "true"
+          ]
+        },
+        "href": {
+          "$id": "/properties/restaurant/properties/href",
+          "type": "string",
+          "title": "The Href Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "https://fudu.getsimplifide.com/fudu_api/v1/restaurants/1"
+          ]
+        },
+        "hours": {
+          "$id": "/properties/restaurant/properties/hours",
+          "type": "array",
+          "items": {
+            "$id": "/properties/restaurant/properties/hours/items",
+            "type": "object",
+            "properties": {
+              "id": {
+                "$id": "/properties/restaurant/properties/hours/items/properties/id",
+                "type": "string",
+                "title": "The Id Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "10"
+                ]
+              },
+              "day": {
+                "$id": "/properties/restaurant/properties/hours/items/properties/day",
+                "type": "string",
+                "title": "The Day Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "Saturday"
+                ]
+              },
+              "openHour": {
+                "$id": "/properties/restaurant/properties/hours/items/properties/openHour",
+                "type": "string",
+                "title": "The Openhour Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "00"
+                ]
+              },
+              "openMin": {
+                "$id": "/properties/restaurant/properties/hours/items/properties/openMin",
+                "type": "string",
+                "title": "The Openmin Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "00"
+                ]
+              },
+              "closeHour": {
+                "$id": "/properties/restaurant/properties/hours/items/properties/closeHour",
+                "type": "string",
+                "title": "The Closehour Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "23"
+                ]
+              },
+              "closeMin": {
+                "$id": "/properties/restaurant/properties/hours/items/properties/closeMin",
+                "type": "string",
+                "title": "The Closemin Schema",
+                "description": "An explanation about the purpose of this instance.",
+                "default": "",
+                "examples": [
+                  "55"
+                ]
+              }
+            }
+          }
+        },
+        "holidays": {
+          "$id": "/properties/restaurant/properties/holidays",
+          "type": "array"
+        },
+        "sequenceNo": {
+          "$id": "/properties/restaurant/properties/sequenceNo",
+          "type": "string",
+          "title": "The Sequenceno Schema",
+          "description": "An explanation about the purpose of this instance.",
+          "default": "",
+          "examples": [
+            "1"
+          ]
+        }
+      }
+    }
+  }
+}
