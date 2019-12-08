@@ -10,5 +10,6 @@ public class FirstTest {
 	  System.out.println("Avinash");
 	  System.out.println("Avinash");
 	  System.out.println("Avinash");
+		System.out.println("Avinash");
   }
 }
